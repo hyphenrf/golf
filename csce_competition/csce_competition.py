@@ -1,1 +1,1 @@
-print(*[i for i in range(2000,3201) if(i%7==0)*i%5],sep=',')
+print(*['%d,'%i for i in range(2000,3201)if(i%7==0)*i%5])
